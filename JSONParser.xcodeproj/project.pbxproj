@@ -13,6 +13,7 @@
 		2F146F7C19ED8312006237EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F146F7A19ED8312006237EE /* Main.storyboard */; };
 		2F146F7E19ED8312006237EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F146F7D19ED8312006237EE /* Images.xcassets */; };
 		2F146F8A19ED8312006237EE /* JSONParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F146F8919ED8312006237EE /* JSONParserTests.m */; };
+		2F59BB6319EE2F85008AAE94 /* Second.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F59BB6219EE2F85008AAE94 /* Second.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		2F146F8319ED8312006237EE /* JSONParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F146F8819ED8312006237EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F146F8919ED8312006237EE /* JSONParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONParserTests.m; sourceTree = "<group>"; };
+		2F59BB6119EE2F85008AAE94 /* Second.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Second.h; sourceTree = "<group>"; };
+		2F59BB6219EE2F85008AAE94 /* Second.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Second.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				2F146F7719ED8312006237EE /* ViewController.h */,
 				2F146F7819ED8312006237EE /* ViewController.m */,
 				2F146F7A19ED8312006237EE /* Main.storyboard */,
+				2F59BB6119EE2F85008AAE94 /* Second.h */,
+				2F59BB6219EE2F85008AAE94 /* Second.m */,
 				2F146F7D19ED8312006237EE /* Images.xcassets */,
 				2F146F7019ED8312006237EE /* Supporting Files */,
 			);
@@ -218,6 +223,7 @@
 				2F146F7919ED8312006237EE /* ViewController.m in Sources */,
 				2F146F7619ED8312006237EE /* AppDelegate.m in Sources */,
 				2F146F7319ED8312006237EE /* main.m in Sources */,
+				2F59BB6319EE2F85008AAE94 /* Second.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +410,7 @@
 				2F146F8F19ED8312006237EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F146F9019ED8312006237EE /* Build configuration list for PBXNativeTarget "JSONParserTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +419,7 @@
 				2F146F9219ED8312006237EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

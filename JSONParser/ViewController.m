@@ -9,7 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-            
+{
+  
+}
 
 @end
 
@@ -18,6 +20,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString * Requrl = @"http://api.kivaws.org/v1/loans/search.json?status=fundraising";
+    
+    NSURL * url = [NSURL URLWithString:Requrl];
+    
+    NSMutableURLRequest * UrlReq = [NSMutableURLRequest requestWithURL:url];
+    
+    NSURLResponse *response = nil;
+    NSError *error = nil;
+    
+    NSData *data = [NSURLConnection sendSynchronousRequest:UrlReq returningResponse:&response error:&error];
+    
+    if (data.length ==0) {
+        NSLog(@"No Data to display");
+    }
+    else
+    {
+        NSLog(@"%i",[data length]);
+    }
+    
+
+
 }
 
 - (void)didReceiveMemoryWarning {
